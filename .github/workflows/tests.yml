@@ -1,4 +1,4 @@
-name: project test and lint
+name: my-check
 
 on:
   -push
