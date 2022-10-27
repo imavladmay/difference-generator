@@ -8,6 +8,7 @@ const genDiff = (file1, file2) => {
   const unionKeys = _.union(fileKeys1, fileKeys2);
   const sortedKeys = unionKeys.sort();
 
+  // eslint-disable-next-line array-callback-return, consistent-return
   const result = sortedKeys.map((key) => {
     if (!Object.hasOwn(file2, key)) {
       return `- ${key}: ${file1[key]}`;
