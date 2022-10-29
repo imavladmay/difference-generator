@@ -10,6 +10,10 @@ const expectedString = `{
 + verbose: true
 }`;
 
-test('genDiff', () => {
+test('genDiff format json', () => {
   expect(genDiff('./__fixtures__/file1.json', './__fixtures__/file2.json')).toBe(expectedString);
+});
+
+test('genDiff format yml', () => {
+  expect(genDiff('./__fixtures__/file1.yml', './__fixtures__/file2.yml')).toBe(expectedString);
 });
