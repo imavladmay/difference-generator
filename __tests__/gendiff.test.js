@@ -9,19 +9,28 @@ const __dirname = dirname(__filename);
 const getFixturePath = (filename) => path.join(__dirname, '..', '__fixtures__', filename);
 const readFixture = (filepath) => readFileSync(getFixturePath(filepath), 'utf-8');
 
-const expectedStylish = readFixture('stylish.txt');
-const expectedPlain = readFixture('plain.txt');
-const expectedJSON = readFixture('json.txt');
-
-test('JSON extension', () => {
-  expect(genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'))).toEqual(expectedStylish);
-  expect(genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'), 'stylish')).toEqual(expectedStylish);
-  expect(genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'), 'plain')).toEqual(expectedPlain);
-  expect(genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'), 'json')).toEqual(expectedJSON);
-});
-test('YAML extension', () => {
-  expect(genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'))).toEqual(expectedStylish);
-  expect(genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'), 'stylish')).toEqual(expectedStylish);
-  expect(genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'), 'plain')).toEqual(expectedPlain);
-  expect(genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'), 'json')).toEqual(expectedJSON);
+test.each([
+  ['file1.json', 'file2.json'],
+  ['file1.json', 'file2.json', 'stylish'],
+  ['file1.json', 'file2.json', 'plain'],
+  ['file1.json', 'file2.json', 'json'],
+  ['file1.yml', 'file2.yml'],
+  ['file1.yml', 'file2.yml', 'stylish'],
+  ['file1.yml', 'file2.yml', 'plain'],
+  ['file1.yml', 'file2.yml', 'json'],
+])('genDiff(%#)', (file1, file2, format = 'stylish') => {
+  const recieved = genDiff(getFixturePath(file1), getFixturePath(file2), format);
+  const expected = (formatter) => {
+    switch (formatter) {
+      case 'stylish':
+        return readFixture('stylish.txt');
+      case 'plain':
+        return readFixture('plain.txt');
+      case 'json':
+        return readFixture('json.txt');
+      default:
+        throw new Error(`${formatter} is not defined`);
+    }
+  };
+  expect(recieved).toBe(expected(format));
 });
