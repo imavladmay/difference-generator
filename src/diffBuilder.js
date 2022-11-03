@@ -5,14 +5,14 @@ const buildDiff = (data1, data2) => {
   const sortedKeys = _.sortBy(keys);
 
   const diff = sortedKeys.map((key) => {
-    if (_.isPlainObject(data1[key]) && _.isPlainObject(data2[key])) {
-      return { key, children: buildDiff(data1[key], data2[key]), type: 'nested' };
-    }
     if (!_.has(data1, key)) {
       return { key, value: data2[key], type: 'added' };
     }
     if (!_.has(data2, key)) {
       return { key, value: data1[key], type: 'removed' };
+    }
+    if (_.isPlainObject(data1[key]) && _.isPlainObject(data2[key])) {
+      return { key, children: buildDiff(data1[key], data2[key]), type: 'nested' };
     }
     if (data1[key] !== data2[key]) {
       return {
