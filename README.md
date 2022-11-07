@@ -1,33 +1,33 @@
 ### Tests and linter status:
 [![Actions Status](https://github.com/imavladmay/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/imavladmay/frontend-project-46/actions) [![Actions Status](https://github.com/imavladmay/frontend-project-46/actions/workflows/tests.yml/badge.svg)](https://github.com/imavladmay/frontend-project-46/actions/workflows/tests.yml)
 ### CodeClimate Maintainability and Test Coverage badges
-[![Maintainability](https://api.codeclimate.com/v1/badges/84ce7d9cb958e6b15982/maintainability)](https://codeclimate.com/github/imavladmay/frontend-project-46/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/84ce7d9cb958e6b15982/test_coverage)](https://codeclimate.com/github/imavladmay/frontend-project-46/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0bcaed960e9184ec0c09/maintainability)](https://codeclimate.com/github/imavladmay/Difference-calculator/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/0bcaed960e9184ec0c09/test_coverage)](https://codeclimate.com/github/imavladmay/Difference-calculator/test_coverage)
 
-### Установка утилиты на ваш компьютер
-1. Запустите терминал и склонируйте репозиторий в вашу домашнюю директорию
-```git clone git@github.com:imavladmay/frontend-project-46.git```
-2. Зайдите в склонированный репозиторий ```cd frontend-project-46.git```
-3. Выполните команду ```make install```
-4. Выполните команду ```make link```
+### Installing the utility on your computer
+1. Launch the terminal and clone the repository into your home directory
+```git clone git@github.com:imavladmay/Difference-calculator.git```
+2. Go to the cloned repository ```cd Difference-calculator```
+3. Run the command ```make install```
+4. Run the command ```make link```
 
-*После этого, можете смело использовать утилиту в командной строке*
+*After that you can safely use the utility at the command line*
 
-#### Возможности утилиты:
-- Поддержка ввода файлов в json и yaml форматах 
-- Генерация отчета в 3-х возможных стилях на выбор (plain, stylish, json)
+#### Utility capability:
+- Support for input files in json and yaml formats 
+- Report generation in 3 possible styles to choose from (plain, stylish, json)
 
-### Установка и вызов справочной информации
+### Installing and recalling help information
 
-[![asciicast](https://asciinema.org/a/gx87F5G9Gg17RNeN8NFcVDvyu.svg)](https://asciinema.org/a/gx87F5G9Gg17RNeN8NFcVDvyu)
+[![asciicast](https://asciinema.org/a/38ozOWsnlwgtuHgjCR0S2NPze.svg)](https://asciinema.org/a/38ozOWsnlwgtuHgjCR0S2NPze)
 
-### Сравнение файлов и вывод результата в стиле plain
+### File comparison and plain style output
+
+[![asciicast](https://asciinema.org/a/GxAGPDPirvms7FJAeJym2Z8UN.svg)](https://asciinema.org/a/GxAGPDPirvms7FJAeJym2Z8UN)
  
- [![asciicast](https://asciinema.org/a/2dDi5tr1u7nFLPiucEripq0u6.svg)](https://asciinema.org/a/2dDi5tr1u7nFLPiucEripq0u6)
- 
-### Сравнение файлов и вывод результата в стиле stylish
- 
- [![asciicast](https://asciinema.org/a/gX7rtY4ZMHnIIishP3xYw21Yu.svg)](https://asciinema.org/a/gX7rtY4ZMHnIIishP3xYw21Yu)
- 
-### Сравнение файлов и вывод результата в стиле json
+### File comparison and stylish style output
 
-[![asciicast](https://asciinema.org/a/E8YqWTlMiAJi0zLCbvEksYQ0J.svg)](https://asciinema.org/a/E8YqWTlMiAJi0zLCbvEksYQ0J)
+[![asciicast](https://asciinema.org/a/07He8KynNbAlR4JkYYTtBxcP6.svg)](https://asciinema.org/a/07He8KynNbAlR4JkYYTtBxcP6)
+ 
+### File comparison and json style output
+
+[![asciicast](https://asciinema.org/a/BxIDgs1FyQShka6cxsrqWKUHH.svg)](https://asciinema.org/a/BxIDgs1FyQShka6cxsrqWKUHH)
