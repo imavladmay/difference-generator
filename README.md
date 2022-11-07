@@ -1,6 +1,6 @@
 ### Tests and linter status:
 [![Actions Status](https://github.com/imavladmay/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/imavladmay/frontend-project-46/actions) [![Actions Status](https://github.com/imavladmay/frontend-project-46/actions/workflows/tests.yml/badge.svg)](https://github.com/imavladmay/frontend-project-46/actions/workflows/tests.yml)
-### CodeClimate Maintainability and Test Coverage badges
+### CodeClimate Maintainability and Test Coverage badges:
 [![Maintainability](https://api.codeclimate.com/v1/badges/0bcaed960e9184ec0c09/maintainability)](https://codeclimate.com/github/imavladmay/Difference-calculator/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/0bcaed960e9184ec0c09/test_coverage)](https://codeclimate.com/github/imavladmay/Difference-calculator/test_coverage)
 
 ### Installing the utility on your computer
