@@ -8,7 +8,7 @@
 ```git clone git@github.com:imavladmay/Difference-calculator.git```
 2. Go to the cloned repository ```cd Difference-calculator```
 3. Run the command ```make install```
-4. Run the command ```make link```
+4. Run the command ```make link``` (If an error occurs, use sudo)
 
 *After that you can safely use the utility at the command line*
 
