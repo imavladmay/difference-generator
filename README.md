@@ -1,33 +1,31 @@
-### Tests and linter status:
-[![Actions Status](https://github.com/imavladmay/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/imavladmay/frontend-project-46/actions) [![Actions Status](https://github.com/imavladmay/frontend-project-46/actions/workflows/tests.yml/badge.svg)](https://github.com/imavladmay/frontend-project-46/actions/workflows/tests.yml)
-### CodeClimate Maintainability and Test Coverage badges:
-[![Maintainability](https://api.codeclimate.com/v1/badges/0bcaed960e9184ec0c09/maintainability)](https://codeclimate.com/github/imavladmay/Difference-calculator/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/0bcaed960e9184ec0c09/test_coverage)](https://codeclimate.com/github/imavladmay/Difference-calculator/test_coverage)
+# Вычислитель отличий
+[![Actions Status](https://github.com/imavladmay/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/imavladmay/frontend-project-46/actions) [![Actions Status](https://github.com/imavladmay/frontend-project-46/actions/workflows/tests.yml/badge.svg)](https://github.com/imavladmay/frontend-project-46/actions/workflows/tests.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/adcfa055fbb1662e231d/maintainability)](https://codeclimate.com/github/imavladmay/difference-generator/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/adcfa055fbb1662e231d/test_coverage)](https://codeclimate.com/github/imavladmay/difference-generator/test_coverage)
 
-### Installing the utility on your computer
-1. Launch the terminal and clone the repository into your home directory
-```git clone git@github.com:imavladmay/Difference-calculator.git```
-2. Go to the cloned repository ```cd Difference-calculator```
-3. Run the command ```make install```
-4. Run the command ```make link``` (If an error occurs, use sudo)
+### Установка утилиты на ваш компьютер
+1. Запустите терминал и склонируйте репозиторий в вашу домашнюю директорию
+   ```git clone https://github.com/imavladmay/difference-generator.git```
+2. Перейдите в склонированный репозиторий ```cd difference-generator```
+3. Выполните команду ```make install```
+4. Выполните команду ```make link```
 
-*After that you can safely use the utility at the command line*
+*После этого вы можете использовать утилиту в командной строке*
 
-#### Utility capability:
-- Support for input files in json and yaml formats 
-- Report generation in 3 possible styles to choose from (plain, stylish, json)
+#### Функционал утилиты:
+- Поддержка входных файлов в форматах json и yaml
+- Генерация отчетов в 3 возможных стилях на выбор (plain, stylish, json)
 
-### Installing and recalling help information
+### Установка утилиты и вызов справочной информации
 
-[![asciicast](https://asciinema.org/a/38ozOWsnlwgtuHgjCR0S2NPze.svg)](https://asciinema.org/a/38ozOWsnlwgtuHgjCR0S2NPze)
+[![asciicast](https://asciinema.org/a/gmllLXpXLtRbvw4hsxpVH2pPy.svg)](https://asciinema.org/a/gmllLXpXLtRbvw4hsxpVH2pPy)
 
-### File comparison and plain style output
+### Сравнение файлов и вывод в стиле plain
 
-[![asciicast](https://asciinema.org/a/GxAGPDPirvms7FJAeJym2Z8UN.svg)](https://asciinema.org/a/GxAGPDPirvms7FJAeJym2Z8UN)
+[![asciicast](https://asciinema.org/a/EvBrxVztCkUBlnQsE6gEvJPFf.svg)](https://asciinema.org/a/EvBrxVztCkUBlnQsE6gEvJPFf)
  
-### File comparison and stylish style output
+### Сравнение файлов и вывод в стиле stylish
 
-[![asciicast](https://asciinema.org/a/07He8KynNbAlR4JkYYTtBxcP6.svg)](https://asciinema.org/a/07He8KynNbAlR4JkYYTtBxcP6)
+[![asciicast](https://asciinema.org/a/8aoAMXwRfCG4J6K257T5OWq01.svg)](https://asciinema.org/a/8aoAMXwRfCG4J6K257T5OWq01)
  
-### File comparison and json style output
+### Сравнение файлов и вывод в стиле json
 
-[![asciicast](https://asciinema.org/a/BxIDgs1FyQShka6cxsrqWKUHH.svg)](https://asciinema.org/a/BxIDgs1FyQShka6cxsrqWKUHH)
+[![asciicast](https://asciinema.org/a/ciB0GU7y0rdbqC6KyCB4hFOqW.svg)](https://asciinema.org/a/ciB0GU7y0rdbqC6KyCB4hFOqW)
