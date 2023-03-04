@@ -10,5 +10,3 @@ tests:
 	npm test
 test-coverage:
 	npm test -- --coverage
-rec:
-	asciinema rec
