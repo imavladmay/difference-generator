@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "«Difference calculator» — is a CLI utility that determines the difference between two configuration files",
+  "description": "«Difference generator» — is a CLI utility that determines the difference between two configuration files",
   "main": "src/index.js",
   "scripts": {
     "test": "npx jest"
